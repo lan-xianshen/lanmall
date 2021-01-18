@@ -1,0 +1,20 @@
+package cn.com.lan.demomall.order.service;
+
+import com.baomidou.mybatisplus.extension.service.IService;
+import cn.com.lan.common.utils.PageUtils;
+import cn.com.lan.demomall.order.entity.OmsPaymentInfoEntity;
+
+import java.util.Map;
+
+/**
+ * 支付信息表
+ *
+ * @author lan
+ * @email misterlanjianglin@gmail.com
+ * @date 2021-01-18 16:36:00
+ */
+public interface OmsPaymentInfoService extends IService<OmsPaymentInfoEntity> {
+
+    PageUtils queryPage(Map<String, Object> params);
+}
+

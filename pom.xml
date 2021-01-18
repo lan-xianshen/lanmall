@@ -15,5 +15,8 @@
         <module>demomall-order</module>
         <module>demomall-product</module>
         <module>demomall-ware</module>
+        <module>renren-fast</module>
+        <module>renren-generator</module>
+        <module>demomall-common</module>
     </modules>
 </project>

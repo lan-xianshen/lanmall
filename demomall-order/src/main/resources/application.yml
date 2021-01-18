@@ -1,0 +1,17 @@
+server:
+  port: 8003
+
+spring:
+  datasource:
+    username: root
+    password: BPM@4321
+    url: jdbc:mysql://192.168.13.164:3306/demomall_oms
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+
+mybatis-plus:
+  mapper-locations: classpath:/mapper/**/*:xml
+  global-config:
+    db-config:
+      id-type: auto
+
